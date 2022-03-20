@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Ludmila1990/layout-designer-project-lvl2/issues"
   },
-  "homepage": "https://github.com/Ludmila1990/layout-designer-project-lvl2#readme"
+  "homepage": "https://github.com/Ludmila1990/layout-designer-project-lvl2#readme",
+  "dependencies": {
+    "stylelint": "^14.6.0"
+  }
 }
