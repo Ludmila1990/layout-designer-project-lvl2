@@ -21,7 +21,8 @@
     "url": "https://github.com/Ludmila1990/layout-designer-project-lvl2/issues"
   },
   "homepage": "https://github.com/Ludmila1990/layout-designer-project-lvl2#readme",
-  "dependencies": {
+  "devDependencies": {
+    "htmlhint": "^1.1.2",
     "stylelint": "^14.6.0"
   }
 }
