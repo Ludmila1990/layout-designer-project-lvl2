@@ -1,0 +1,24 @@
+{
+  "name": "layout-designer-project-lvl2",
+  "version": "1.0.0",
+  "description": "music box",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ludmila1990/layout-designer-project-lvl2.git"
+  },
+  "keywords": [
+    "music",
+    "music box",
+    "box"
+  ],
+  "author": "Ludmila Suntsova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ludmila1990/layout-designer-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/Ludmila1990/layout-designer-project-lvl2#readme"
+}
