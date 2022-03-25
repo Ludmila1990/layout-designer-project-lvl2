@@ -1,2 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #cacaca;
+  background-color: #08020d;
+}
+
+a {
+  text-decoration: none;
+  color: #cacaca;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 1200px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 90px;
+}
+@media (max-width: 770px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 57px;
+}
+@media (max-width: 770px) {
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+.bg-header {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.header-section {
+  position: absolute;
+  top: -75px;
+  right: 120px;
+  display: flex;
+  font-size: 11px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.header-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.header-name {
+  margin-right: 66px;
+  margin-left: 16px;
+}
+
+.header-nav li {
+  display: inline;
+  margin-left: 24px;
+}
+.header-nav li:hover {
+  color: #fff;
+}
+
+.form-search {
+  position: absolute;
+  right: 0;
+}
+.form-search input {
+  width: 248px;
+  height: 25px;
+  background: #3C3B3D;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 50px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.banner {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.banner .form-banner {
+  display: flex;
+  max-width: 570px;
+  margin: 17px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.banner .form-banner input {
+  width: 273px;
+  height: 50px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+  background: none;
+  color: #fff;
+}
+.banner .form-banner input:nth-child(1) {
+  margin-right: 24px;
+}
+.banner .form-banner input::placeholder {
+  font-size: 14px;
+  color: #fff;
+}
+.banner .form-banner button {
+  width: 570px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  background: #34C176;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.mg-t-31 {
+  margin-top: 31px;
+}
+
+.font-white {
+  color: #fff;
+}
 
 /*# sourceMappingURL=style.css.map */
