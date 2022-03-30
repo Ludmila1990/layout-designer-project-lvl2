@@ -1,8 +1,9 @@
 @import "./_base";
 @import "./_header";
-@import "./section-banner";
-@import "./margins";
-@import "./page-pricing";
+@import "./_section-banner";
+@import "./_margins";
+@import "./_page-pricing";
+@import "./_page-news";
 
 .font-white {
     color: #fff;
@@ -10,4 +11,12 @@
 
 .align-center {
     text-align: center;
+}
+
+.mg-l-50 {
+    margin-left: 50px;
+}
+
+.p-t-65 {
+    padding-top: 65px;
 }
