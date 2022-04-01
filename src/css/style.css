@@ -284,6 +284,48 @@ h3 {
   flex-direction: row-reverse;
 }
 
+.flex-mobile {
+  display: flex;
+}
+
+.content {
+  width: 50%;
+  padding-top: 64px;
+}
+.content p {
+  padding-bottom: 16px;
+}
+.content .btn {
+  border-radius: 32px;
+  border: none;
+  padding: 17px 41px 17px 40px;
+  width: 131px;
+  height: 53px;
+  background: #95390C;
+  text-transform: none;
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+.content .btn a {
+  color: #fff;
+}
+
+.mobile-image {
+  padding-top: 48px;
+  padding-left: 144px;
+  padding-bottom: 100px;
+}
+
+.bg-footer {
+  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 43px;
+}
+
 .font-white {
   color: #fff;
 }

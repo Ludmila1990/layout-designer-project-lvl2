@@ -1,0 +1,34 @@
+.flex-mobile {
+    display: flex;
+}
+
+.content {
+    width: 50%;
+    padding-top: 64px;
+
+    & p {
+        padding-bottom: 16px;
+    }
+
+    .btn {
+        border-radius: 32px;
+        border: none;
+        padding: 17px 41px 17px 40px;
+        width: 131px;
+        height: 53px;
+        background: #95390C;
+        text-transform: none;
+        font-size: 12.8px;
+        line-height: 19.2px;
+
+        & a {
+            color: #fff;  
+        }
+    }
+}
+
+.mobile-image {
+    padding-top: 48px;
+    padding-left: 144px;
+    padding-bottom: 100px;
+}

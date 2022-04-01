@@ -1,0 +1,25 @@
+@import "./variables";
+@import "./general";
+@import "./header";
+@import "./section-banner";
+@import "./margins";
+@import "./page-pricing";
+@import "./page-news";
+@import "./page-app";
+@import "./footer";
+
+.font-white {
+    color: #fff;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.mg-l-50 {
+    margin-left: 50px;
+}
+
+.p-t-65 {
+    padding-top: 65px;
+}
