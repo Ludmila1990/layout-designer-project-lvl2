@@ -5,6 +5,65 @@
 .footer-container {
     display: flex;
 
-    padding-top: 64px;
-    padding-bottom: 43px;
+    padding-top: 62px;
+    padding-bottom: 72px;
+    width: 1200px;
+    margin: 0 auto;
+
+    & h2 {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 27px;
+        text-transform: uppercase;
+        text-align: left;
+        padding-bottom: 15px;
+    }
+
+    & ul {
+        margin-right: 40px;
+        flex-basis: 25%;
+
+        &:nth-child(4) {
+            margin-right: 0;
+        }
+    }
+
+    & a {
+        color: #e0e0e0;
+    }
+
+      & .social-network li {
+          display: inline;
+          margin-right: 24px;
+
+          &:nth-child(5) {
+              margin-right: 0;
+          }
+      }
+}
+
+.footer-line {
+    border: 1px solid #cacaca;
+}
+
+.footer-container-two {
+    display: flex;
+
+    padding-top: 40px;
+    padding-bottom: 49px;
+    width: 1200px;
+    margin: 0 auto;
+
+    & li {
+        display: inline;
+        margin-right: 16px;
+
+        &:nth-child(5) {
+            margin-right: 0;
+        }
+
+        & a {
+            color: #e0e0e0;
+        }
+    }
 }
