@@ -71,6 +71,12 @@ h3 {
   background-size: cover;
 }
 
+.bg-artist {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .header-section {
   position: absolute;
   top: -75px;
@@ -118,16 +124,16 @@ h3 {
 .banner {
   padding-top: 200px;
   padding-bottom: 200px;
-  text-align: center;
 }
-.banner .form-banner {
+
+.form-banner {
   display: flex;
   max-width: 570px;
   margin: 17px auto;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.banner .form-banner input {
+.form-banner input {
   width: 273px;
   height: 50px;
   box-sizing: border-box;
@@ -138,14 +144,14 @@ h3 {
   background: none;
   color: #fff;
 }
-.banner .form-banner input:nth-child(1) {
+.form-banner input:nth-child(1) {
   margin-right: 24px;
 }
-.banner .form-banner input::placeholder {
+.form-banner input::placeholder {
   font-size: 14px;
   color: #fff;
 }
-.banner .form-banner button {
+.form-banner button {
   width: 570px;
   padding: 20px 30px;
   border: none;
@@ -153,6 +159,34 @@ h3 {
   background: #34C176;
   color: #fff;
   text-transform: uppercase;
+}
+
+.buttons-artist {
+  display: flex;
+}
+.buttons-artist button {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 62px;
+  margin-right: 24px;
+  padding-left: 31px;
+  font-size: 12.8px;
+  border: none;
+}
+.buttons-artist button:nth-child(2) {
+  margin-right: 0;
+}
+.buttons-artist img {
+  width: 20px;
+  height: 20px;
+  padding-right: 16px;
+}
+.buttons-artist .bg-purple {
+  background: #5328A1;
+}
+.buttons-artist .bg-red {
+  background: #95390C;
 }
 
 .mg-t-31 {
@@ -389,6 +423,11 @@ h3 {
 
 .p-t-65 {
   padding-top: 65px;
+}
+
+.mg-t16-b48 {
+  margin-top: 16px;
+  margin-bottom: 48px;
 }
 
 /*# sourceMappingURL=style.css.map */
