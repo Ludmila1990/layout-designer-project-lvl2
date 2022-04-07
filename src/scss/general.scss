@@ -24,8 +24,7 @@ ul {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
     color: #fff;
     text-transform: uppercase;
 }
@@ -52,7 +51,6 @@ h2 {
     font-size: 38px;
     font-weight: bold;
     line-height: 57px;
-    text-align: center;
 
     @media (max-width: 770px) {
         font-size: 18px;

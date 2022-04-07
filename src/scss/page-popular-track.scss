@@ -1,0 +1,21 @@
+
+.popular-track {
+    display: grid;
+    grid-template-columns: repeat(22, 50px);
+    grid-template-rows: repeat(6, 50px);
+    
+    & img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .track-info {
+        padding-left: 15px;
+    }
+
+    .track-name {
+        font-size: 12.8px;
+        font-weight: bold;
+        line-height: 19.2px;
+    }
+}

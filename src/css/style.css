@@ -22,8 +22,7 @@ ul {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   color: #fff;
   text-transform: uppercase;
 }
@@ -50,7 +49,6 @@ h2 {
   font-size: 38px;
   font-weight: bold;
   line-height: 57px;
-  text-align: center;
 }
 @media (max-width: 770px) {
   h2 {
@@ -407,6 +405,47 @@ h3 {
 }
 .footer-container-two li a {
   color: #e0e0e0;
+}
+
+.popular-track {
+  display: grid;
+  grid-template-columns: repeat(22, 50px);
+  grid-template-rows: repeat(6, 50px);
+}
+.popular-track img {
+  width: 55px;
+  height: 55px;
+}
+.popular-track .track-info {
+  padding-left: 15px;
+}
+.popular-track .track-name {
+  font-size: 12.8px;
+  font-weight: bold;
+  line-height: 19.2px;
+}
+
+.discography-catalog {
+  padding-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.discography-catalog .discography-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+.discography-catalog .discography-item:nth-child(n+5) {
+  margin-bottom: 0;
+}
+.discography-catalog .discography-name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+  color: #fff;
+}
+.discography-catalog .discography-year {
+  color: #e0e0e0;
+  line-height: 24px;
 }
 
 .font-white {

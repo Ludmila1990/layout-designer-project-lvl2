@@ -1,0 +1,26 @@
+.discography-catalog {
+    padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .discography-item {
+        margin-right: 50px;
+        margin-bottom: 25px;
+
+        &:nth-child(n + 5) {
+            margin-bottom: 0;
+        }
+    }
+
+    .discography-name {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 27px;
+        color: #fff;
+    }
+
+    .discography-year {
+        color: #e0e0e0;
+        line-height: 24px;
+    }
+}
