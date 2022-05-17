@@ -1,69 +1,77 @@
-.bg-footer {
-    background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
+.footer-container-two {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 49px;
+}
+
+.footer-container-two li {
+  display: inline;
+  margin-right: 16px;
+}
+
+.footer-container-two li:nth-child(5) {
+  margin-right: 0;
+}
+
+.footer-container a {
+  color: $grey;
+}
+
+.footer-container-two li a {
+  color: $grey;
+}
+
+.footer-container a:hover {
+  color: $white;
+}
+
+.footer-container-two li a:hover {
+  color: $white;
 }
 
 .footer-container {
-    display: flex;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 62px;
+  padding-bottom: 72px;
+}
 
-    padding-top: 62px;
-    padding-bottom: 72px;
-    width: 1200px;
-    margin: 0 auto;
+.footer-container h2 {
+  padding-bottom: 15px;
 
-    & h2 {
-        font-size: 18px;
-        font-weight: bold;
-        line-height: 27px;
-        text-transform: uppercase;
-        text-align: left;
-        padding-bottom: 15px;
-    }
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
 
-    & ul {
-        margin-right: 40px;
-        flex-basis: 25%;
+  text-align: left;
 
-        &:nth-child(4) {
-            margin-right: 0;
-        }
-    }
+  text-transform: uppercase;
+}
 
-    & a {
-        color: #e0e0e0;
-    }
+.footer-container ul {
+  flex-basis: 25%;
+  margin-right: 40px;
+}
 
-      & .social-network li {
-          display: inline;
-          margin-right: 24px;
+.footer-container ul:nth-child(4) {
+  margin-right: 0;
+}
 
-          &:nth-child(5) {
-              margin-right: 0;
-          }
-      }
+.footer-container .social-network li {
+  display: inline;
+  margin-right: 24px;
+}
+
+.footer-container .social-network li:nth-child(1) {
+  margin-right: 0;
+}
+
+.footer-container .social-network li:nth-child(5) {
+  margin-right: 0;
 }
 
 .footer-line {
-    border: 1px solid #cacaca;
-}
-
-.footer-container-two {
-    display: flex;
-
-    padding-top: 40px;
-    padding-bottom: 49px;
-    width: 1200px;
-    margin: 0 auto;
-
-    & li {
-        display: inline;
-        margin-right: 16px;
-
-        &:nth-child(5) {
-            margin-right: 0;
-        }
-
-        & a {
-            color: #e0e0e0;
-        }
-    }
+  border: 1px solid;
 }

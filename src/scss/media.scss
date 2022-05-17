@@ -1,0 +1,450 @@
+@media (min-width: 320px) and (max-width: 575px) {
+  .container {
+    padding: 100px 20px;
+    padding-bottom: 0;
+  }
+
+  .nav-section {
+    top: 27px;
+    left: 20px;
+
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logoname {
+    display: flex;
+    margin-bottom: 17px;
+  }
+
+  .logo-name {
+    margin-right: 0;
+  }
+
+  .nav-list {
+    display: contents;
+
+    li {
+      margin-left: 0;
+    }
+  }
+
+  .form-search {
+    position: unset;
+
+    margin-top: 18px;
+
+    input {
+      width: calc(100vw - 40px);
+    }
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .form-banner {
+    width: 100%;
+
+    input[type="text"] {
+      width: 100%;
+
+      &:nth-child(1) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .pricing-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 0;
+  }
+
+  .pricing-item {
+    flex-basis: auto;
+    width: calc(100% - 40px);
+    margin-top: 46px;
+    margin-right: 0;
+  }
+
+  .pricing-footer {
+    padding-bottom: 67px;
+  }
+
+  .news-item {
+    flex-direction: column;
+  }
+
+  .news-body {
+    width: 100%;
+
+    & h3 {
+      margin-top: 50px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .mg-l-50 {
+    margin-left: 0;
+  }
+
+  .mg-t-65 {
+    margin-top: 64px;
+  }
+
+  .flex-mobile {
+    flex-direction: column-reverse;
+  }
+
+  .mobile-image {
+    padding-bottom: 0;
+    padding-left: 0;
+
+    text-align: center;
+  }
+
+  .content {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .mg-t-64 {
+    margin-top: 16px;
+  }
+
+  .mg-b-16 {
+    margin-bottom: 15px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    & ul {
+      margin-bottom: 30px;
+
+      &:nth-child(4) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .footer-container-two {
+    padding-right: 20px;
+    padding-left: 20px;
+
+    & li {
+      display: list-item;
+      margin-right: 0;
+      margin-bottom: 16px;
+
+      &:nth-child(5) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .buttons-artist {
+    flex-wrap: wrap;
+  }
+
+  .mg-r-24 {
+    margin-bottom: 24px;
+  }
+
+  .track-item {
+    width: 100%;
+    margin-right: 0;
+
+    &:nth-child(5) {
+      margin-bottom: 25px;
+    }
+  }
+
+  .catalog-item {
+    width: 137px;
+
+    & img {
+      width: 137px;
+      height: 137px;
+    }
+
+    &:nth-child(n + 5) {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .nav-section {
+    top: 27px;
+    left: 20px;
+
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logoname {
+    display: flex;
+    margin-bottom: 17px;
+  }
+
+  .logo-name {
+    margin-right: 0;
+  }
+
+  .nav-list {
+    display: contents;
+
+    li {
+      margin-left: 0;
+    }
+  }
+
+  .form-search {
+    position: unset;
+
+    margin-top: 18px;
+
+    input {
+      width: calc(100vw - 40px);
+    }
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .form-banner {
+    width: 100%;
+
+    input[type="text"] {
+      width: 100%;
+
+      &:nth-child(1) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .pricing-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .pricing-item {
+    flex-basis: 46%;
+    margin-top: 46px;
+    margin-right: 0;
+
+    &:nth-child(1) {
+      margin-right: 24px;
+    }
+  }
+
+  .pricing-footer {
+    padding-bottom: 67px;
+  }
+
+  .news-item {
+    flex-direction: column;
+  }
+
+  .img-news {
+    width: 100%;
+  }
+
+  .news-body {
+    & h3 {
+      margin-top: 50px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .mg-l-50 {
+    margin-left: 0;
+  }
+
+  .mg-t-65 {
+    margin-top: 64px;
+  }
+
+  .content {
+    margin-bottom: 20px;
+  }
+
+  .mobile-image {
+    padding-left: 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    & ul {
+      margin-bottom: 30px;
+
+      &:nth-child(4) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .footer-container-two {
+    padding-right: 20px;
+    padding-left: 20px;
+
+    & li {
+      display: list-item;
+      margin-right: 0;
+      margin-bottom: 16px;
+
+      &:nth-child(5) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .track-item {
+    width: 100%;
+    margin-right: 0;
+
+    &:nth-child(5) {
+      margin-bottom: 25px;
+    }
+  }
+
+  .catalog-item {
+    width: 145px;
+
+    & img {
+      width: 145px;
+      height: 145px;
+    }
+
+    &:nth-child(n + 5) {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .container {
+    padding: 100px 40px;
+    padding-bottom: 0;
+  }
+
+  .nav-section {
+    left: 40px;
+  }
+
+  .logo-name {
+    margin-right: 33px;
+  }
+
+  .nav-list {
+    li {
+      margin-left: 12px;
+    }
+  }
+
+  .form-search {
+    right: -60px;
+  }
+
+  .pricing-item {
+    margin-right: 30px;
+
+    &:nth-child(3) {
+      margin-right: 0;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .content {
+    margin-bottom: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    & ul {
+      margin-bottom: 30px;
+
+      &:nth-child(4) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .footer-container-two {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .track-item {
+    &:nth-child(5) {
+      margin-bottom: 25px;
+    }
+  }
+
+  .catalog-item {
+    &:nth-child(n + 5) {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1240px) {
+  .container {
+    padding: 100px 20px;
+    padding-bottom: 0;
+  }
+
+  .footer-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .footer-container-two {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}

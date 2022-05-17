@@ -1,83 +1,37 @@
 .banner {
-    padding-top: 200px;
-    padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .form-banner {
-    display: flex;
-    max-width: 570px;
-    margin: 17px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 570px;
+  margin: 17px auto;
+  margin-bottom: 0;
 
-    justify-content: space-between;
-        
-    flex-wrap: wrap;
+  input[type="text"] {
+    box-sizing: border-box;
+    width: 273px;
+    height: 50px;
+    margin-bottom: 1.5rem;
+    padding-left: 20px;
 
-    input {
-        width: 273px;
-        height: 50px;
-        box-sizing: border-box;
-        padding-left: 20px;
-        margin-bottom: 1.5rem;
-        border: 2px solid #cacaca;
-        border-radius: 3px;
-        background: none;
-        color: #fff;
+    color: $white;
 
-        &:nth-child(1) {
-            margin-right: 24px;
-        }
-            
-        &::placeholder {
-            font-size: 14px;
-            color: #fff;
-        }
-    
+    background: none;
+
+    border: 2px solid;
+    border-radius: 3px;
+
+    &:nth-child(1) {
+      margin-right: 24px;
     }
-        
-    button {
-        width: 570px;
-        padding: 20px 30px;
-        border: none;
-        border-radius: 5px;
-        background: #34C176;
-        color: #fff;
-        text-transform: uppercase;
+
+    &::placeholder {
+      color: $white;
+      font-size: 14px;
     }
+  }
 }
-
-.buttons-artist {
-    display: flex;
-
-    & button {
-        display: flex;
-        align-items: center;
-        width: 200px;
-        height: 62px;
-        margin-right: 24px;
-        padding-left: 31px;
-        font-size: 12.8px;
-        border: none;
-
-        &:nth-child(2) {
-            margin-right: 0;
-        }
-    }
-
-    & img {
-        width: 20px;
-        height: 20px;
-        padding-right: 16px;
-    }
-
-    .bg-purple {
-    background: #5328A1;
-    }
-
-    .bg-red {
-    background: #95390C;
-    }
-
-}
-
-
-

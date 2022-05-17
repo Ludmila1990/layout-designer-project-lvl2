@@ -1,26 +1,28 @@
-.discography-catalog {
-    padding-top: 48px;
-    display: flex;
-    flex-wrap: wrap;
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 48px;
+}
 
-    .discography-item {
-        margin-right: 50px;
-        margin-bottom: 25px;
+.catalog-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
 
-        &:nth-child(n + 5) {
-            margin-bottom: 0;
-        }
-    }
+  &:nth-child(n + 5) {
+    margin-bottom: 0;
+  }
+}
 
-    .discography-name {
-        font-size: 18px;
-        font-weight: bold;
-        line-height: 27px;
-        color: #fff;
-    }
+.item-name {
+  color: $white;
+  font-weight: bold;
 
-    .discography-year {
-        color: #e0e0e0;
-        line-height: 24px;
-    }
+  font-size: 18px;
+
+  line-height: 27px;
+}
+
+.item-desc {
+  color: $grey;
+  line-height: 24px;
 }

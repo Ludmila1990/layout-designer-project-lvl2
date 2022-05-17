@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./buttons";
 @import "./general";
 @import "./header";
 @import "./section-banner";
@@ -7,28 +8,7 @@
 @import "./page-news";
 @import "./page-app";
 @import "./footer";
-@import "./page-popular-track.scss";
-@import "./page-discography.scss";
-@import "./page-similar.scss";
-
-.font-white {
-    color: #fff;
-}
-
-.align-center {
-    text-align: center;
-}
-
-.mg-l-50 {
-    margin-left: 50px;
-}
-
-.p-t-65 {
-    padding-top: 65px;
-}
-
-.mg-t16-b48 {
-    margin-top: 16px;
-    margin-bottom: 48px;
-}
-
+@import "./page-popular-track";
+@import "./page-discography";
+@import "./background";
+@import "./media";
