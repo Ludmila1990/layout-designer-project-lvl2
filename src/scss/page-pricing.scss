@@ -24,12 +24,15 @@
   }
 
   & h3 {
-    padding-top: 24px;
-    padding-bottom: 200px;
+    margin-top: 24px;
+    margin-bottom: 200px;
   }
 }
 
 .pricing-value {
+  display: flex;
+  justify-content: center;
+
   margin-bottom: 40px;
 
   font-size: 32px;
@@ -37,14 +40,16 @@
   text-transform: uppercase;
 
   & span {
+    margin-right: 16px;
+
     font-size: 64px;
     line-height: 1em;
   }
 }
 
 .pricing-footer {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
 
   font-size: 12.8px;
   line-height: 19.2px;
