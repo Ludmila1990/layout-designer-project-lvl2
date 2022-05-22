@@ -10,6 +10,8 @@
 
     flex-direction: column;
     align-items: flex-start;
+
+    line-height: 12.9px;
   }
 
   .logoname {
@@ -19,13 +21,20 @@
 
   .logo-name {
     margin-right: 0;
+    height: 13px;
   }
 
   .nav-list {
     display: contents;
+    height: 13px;
 
     li {
       margin-left: 0;
+      margin-bottom: 3px;
+
+      &:nth-child(4) {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -67,8 +76,9 @@
   }
 
   .pricing-cards {
+    width: 100vw;
+
     flex-wrap: wrap;
-    justify-content: center;
 
     margin-top: 0;
   }
@@ -201,6 +211,8 @@
 
     flex-direction: column;
     align-items: flex-start;
+
+    line-height: 12.9px;
   }
 
   .logoname {
@@ -210,13 +222,20 @@
 
   .logo-name {
     margin-right: 0;
+    height: 13px;
   }
 
   .nav-list {
     display: contents;
+    height: 13px;
 
     li {
       margin-left: 0;
+      margin-bottom: 3px;
+
+      &:nth-child(4) {
+        margin-bottom: 0;
+      }
     }
   }
 

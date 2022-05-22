@@ -8,25 +8,29 @@
   width: 83.3333%;
 
   font-size: 11px;
+  line-height: 16.5px;
   text-transform: uppercase;
-
-  img {
-    width: 24px;
-    height: 24px;
-  }
 }
 
 .logoname {
   display: flex;
   align-items: center;
+
+  img {
+    height: 24px;
+    width: 24px;
+  }
 }
 
 .logo-name {
   margin-right: 66px;
   margin-left: 16px;
+  height: 17px;
 }
 
 .nav-list {
+  height: 17px;
+
   li {
     display: inline;
     margin-left: 24px;

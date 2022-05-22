@@ -37,6 +37,10 @@
   }
 }
 
+.data {
+  display: flex;
+}
+
 .news-author {
   color: $orange;
   text-transform: uppercase;
@@ -45,3 +49,4 @@
 .row-reverse {
   flex-direction: row-reverse;
 }
+
