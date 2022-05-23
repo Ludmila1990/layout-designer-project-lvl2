@@ -5,28 +5,24 @@
   padding-bottom: 49px;
 }
 
-.footer-container-two li {
-  display: inline;
+.footer-container-two a {
   margin-right: 16px;
+  color: $grey;
 }
 
-.footer-container-two li:nth-child(5) {
+.footer-container-two a:nth-child(5) {
   margin-right: 0;
+}
+
+.footer-container-two a:hover {
+  color: $white;
 }
 
 .footer-container a {
   color: $grey;
 }
 
-.footer-container-two li a {
-  color: $grey;
-}
-
 .footer-container a:hover {
-  color: $white;
-}
-
-.footer-container-two li a:hover {
   color: $white;
 }
 
@@ -72,4 +68,8 @@
 
 .footer-line {
   border: 1px solid;
+}
+
+.footer-nav {
+  display: flex;
 }

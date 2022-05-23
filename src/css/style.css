@@ -360,28 +360,24 @@ h4 {
   padding-bottom: 49px;
 }
 
-.footer-container-two li {
-  display: inline;
+.footer-container-two a {
   margin-right: 16px;
+  color: #e0e0e0;
 }
 
-.footer-container-two li:nth-child(5) {
+.footer-container-two a:nth-child(5) {
   margin-right: 0;
+}
+
+.footer-container-two a:hover {
+  color: #fff;
 }
 
 .footer-container a {
   color: #e0e0e0;
 }
 
-.footer-container-two li a {
-  color: #e0e0e0;
-}
-
 .footer-container a:hover {
-  color: #fff;
-}
-
-.footer-container-two li a:hover {
   color: #fff;
 }
 
@@ -425,6 +421,10 @@ h4 {
 
 .footer-line {
   border: 1px solid;
+}
+
+.footer-nav {
+  display: flex;
 }
 
 .popular-track {
@@ -690,13 +690,16 @@ h4 {
     padding-right: 20px;
     padding-left: 20px;
   }
-  .footer-container-two li {
-    display: list-item;
+  .footer-container-two a {
     margin-right: 0;
     margin-bottom: 16px;
   }
-  .footer-container-two li:nth-child(5) {
+  .footer-container-two a:nth-child(5) {
     margin-bottom: 0;
+  }
+
+  .footer-nav {
+    flex-direction: column;
   }
 
   .buttons-artist {

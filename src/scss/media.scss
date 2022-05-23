@@ -172,8 +172,7 @@
     padding-right: 20px;
     padding-left: 20px;
 
-    & li {
-      display: list-item;
+    & a {
       margin-right: 0;
       margin-bottom: 16px;
 
@@ -181,6 +180,10 @@
         margin-bottom: 0;
       }
     }
+  }
+
+  .footer-nav {
+    flex-direction: column;
   }
 
   .buttons-artist {
