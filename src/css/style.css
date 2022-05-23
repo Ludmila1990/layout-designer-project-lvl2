@@ -229,6 +229,10 @@ h4 {
   margin-top: 64px;
 }
 
+.mg-b-15 {
+  margin-bottom: 15px;
+}
+
 .mg-b-16 {
   margin-bottom: 16px;
 }
@@ -246,8 +250,12 @@ h4 {
   padding-bottom: 100px;
 }
 
-.mg-b-15 {
-  margin-bottom: 15px;
+.mg-r-16 {
+  margin-right: 16px;
+}
+
+.mg-b-24 {
+  margin-bottom: 24px;
 }
 
 .pricing-cards {
@@ -298,6 +306,7 @@ h4 {
 
 .news-item {
   display: flex;
+  height: 286px;
 }
 
 .news-body {
@@ -308,27 +317,17 @@ h4 {
   line-height: 45px;
   text-transform: none;
 }
-.news-body p {
-  margin-bottom: 24px;
-}
 .news-body img {
   width: 19px;
   height: 19px;
 }
-.news-body ul {
-  margin-bottom: 48px;
-}
-.news-body li {
-  display: inline;
-  margin-right: 16px;
-  font-size: 12px;
-}
-.news-body li:nth-child(3) {
-  margin-right: 0;
-}
 
 .data {
   display: flex;
+  align-items: center;
+  margin-bottom: 64px;
+  font-size: 12px;
+  line-height: 19.2px;
 }
 
 .news-author {
@@ -388,7 +387,7 @@ h4 {
 
 .footer-container {
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-top: 62px;
   padding-bottom: 72px;
@@ -628,6 +627,7 @@ h4 {
 
   .news-item {
     flex-direction: column;
+    height: auto;
   }
 
   .news-body {
@@ -635,6 +635,10 @@ h4 {
   }
   .news-body h3 {
     margin-top: 50px;
+    margin-bottom: 16px;
+  }
+
+  .mg-b-15 {
     margin-bottom: 16px;
   }
 
@@ -676,6 +680,7 @@ h4 {
   }
   .footer-container ul {
     margin-bottom: 30px;
+    margin-right: 0;
   }
   .footer-container ul:nth-child(4) {
     margin-bottom: 0;
