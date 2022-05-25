@@ -105,7 +105,7 @@
 
   .news-item {
     flex-direction: column;
-    height: auto;
+    height: 505px;
   }
 
   .news-body {
@@ -114,6 +114,8 @@
     & h3 {
       margin-top: 50px;
       margin-bottom: 16px;
+
+      line-height: 24px;
     }
   }
 
@@ -134,15 +136,14 @@
   }
 
   .mobile-image {
-    padding-bottom: 0;
-    padding-left: 0;
+    margin-left: 0;
 
     text-align: center;
   }
 
   .content {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 13px;
   }
 
   .mg-t-64 {
