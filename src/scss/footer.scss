@@ -6,7 +6,6 @@
 }
 
 .footer-container-two a {
-  width: 354px;
   margin-right: 16px;
   color: $grey;
 }
@@ -46,24 +45,11 @@
 }
 
 .footer-container ul {
-  flex-basis: 25%;
+  flex-basis: 22.5%;
   margin-right: 40px;
 }
 
 .footer-container ul:nth-child(4) {
-  margin-right: 0;
-}
-
-.footer-container .social-network li {
-  display: inline;
-  margin-right: 24px;
-}
-
-.footer-container .social-network li:nth-child(1) {
-  margin-right: 0;
-}
-
-.footer-container .social-network li:nth-child(5) {
   margin-right: 0;
 }
 
@@ -73,4 +59,26 @@
 
 .footer-nav {
   display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 22.5%;
+  margin-right: 40px;
+
+  color: $grey;
+  line-height: 24px;
+}
+
+.social-network {
+  flex-basis: 22.5%;
+
+  a {
+    margin-right: 24px;
+
+    &:nth-child(5) {
+      margin-right: 0;
+    }
+  }
 }
