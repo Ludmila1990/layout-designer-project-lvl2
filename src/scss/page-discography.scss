@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 48px;
+
+  justify-content: start;
 }
 
 .catalog-item {
@@ -14,7 +16,7 @@
 }
 
 .item-name {
-  margin-top: 18px;
+  margin-top: 11px;
 
   color: $white;
   font-weight: bold;
