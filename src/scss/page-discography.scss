@@ -1,7 +1,7 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 48px;
+  margin-top: 48px;
 }
 
 .catalog-item {
@@ -14,12 +14,16 @@
 }
 
 .item-name {
+  margin-top: 18px;
+
   color: $white;
   font-weight: bold;
 
   font-size: 18px;
 
   line-height: 27px;
+
+  text-transform: none;
 }
 
 .item-desc {
