@@ -26,10 +26,9 @@
 
   .nav-list {
     display: contents;
-    width: 83px;
-    height: 13px;
 
     li {
+      width: 84px;
       margin-left: 0;
       margin-bottom: 3px;
 
@@ -65,7 +64,7 @@
   }
 
   .banner {
-    padding-top: 150px;
+    padding-top: 145px;
   }
 
   .mg-t-31 {
@@ -189,6 +188,11 @@
 
   .footer-nav {
     flex-direction: column;
+  }
+
+  .banner-artist {
+    padding-top: 123px;
+    padding-bottom: 224px;
   }
 
   .buttons-artist {
