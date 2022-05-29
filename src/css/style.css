@@ -153,9 +153,6 @@ h4 {
   height: 17px;
 }
 
-.nav-list {
-  height: 17px;
-}
 .nav-list li {
   display: inline;
   margin-left: 24px;
@@ -468,6 +465,7 @@ h4 {
 
 .track {
   display: flex;
+  align-items: center;
 }
 
 .track-info {
@@ -557,7 +555,6 @@ h4 {
   }
 
   .nav-section {
-    top: 27px;
     left: 20px;
     flex-direction: column;
     align-items: flex-start;
@@ -575,7 +572,8 @@ h4 {
   }
 
   .nav-list {
-    display: contents;
+    display: flex;
+    flex-direction: column;
     width: 84px;
   }
   .nav-list li {

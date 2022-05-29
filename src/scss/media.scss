@@ -5,7 +5,6 @@
   }
 
   .nav-section {
-    top: 27px;
     left: 20px;
 
     flex-direction: column;
@@ -25,7 +24,8 @@
   }
 
   .nav-list {
-    display: contents;
+    display: flex;
+    flex-direction: column;
     width: 84px;
 
     li {
