@@ -453,7 +453,8 @@ h4 {
 .track-item {
   display: flex;
   align-items: center;
-  max-width: 550px;
+  justify-content: space-between;
+  width: 551px;
   margin-right: 50px;
   margin-bottom: 25px;
   color: #e0e0e0;
@@ -465,8 +466,11 @@ h4 {
   margin-bottom: 0;
 }
 
+.track {
+  display: flex;
+}
+
 .track-info {
-  width: 456px;
   margin-left: 15px;
 }
 .track-info h3 {
@@ -567,14 +571,14 @@ h4 {
 
   .logo-name {
     margin-right: 0;
-    height: 13px;
+    height: 17px;
   }
 
   .nav-list {
     display: contents;
+    width: 84px;
   }
   .nav-list li {
-    width: 84px;
     margin-left: 0;
     margin-bottom: 3px;
   }
@@ -722,7 +726,7 @@ h4 {
   }
 
   .banner-artist {
-    padding-top: 123px;
+    padding-top: 122px;
     padding-bottom: 224px;
   }
 

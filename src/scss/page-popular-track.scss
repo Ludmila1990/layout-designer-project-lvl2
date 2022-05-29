@@ -12,7 +12,8 @@
 .track-item {
   display: flex;
   align-items: center;
-  max-width: 550px;
+  justify-content: space-between;
+  width: 551px;
   margin-right: 50px;
   margin-bottom: 25px;
 
@@ -26,8 +27,11 @@
   }
 }
 
+.track {
+  display: flex;
+}
+
 .track-info {
-  width: 456px;
   margin-left: 15px;
 
   h3 {
