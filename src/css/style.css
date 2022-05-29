@@ -330,7 +330,7 @@ h4 {
 .data {
   display: flex;
   align-items: center;
-  margin-bottom: 64px;
+  margin-bottom: 59px;
   font-size: 12px;
   line-height: 19.2px;
 }
@@ -644,6 +644,7 @@ h4 {
 
   .news-item {
     flex-direction: column;
+    height: 480px;
   }
 
   .news-body {
@@ -672,6 +673,7 @@ h4 {
   }
 
   .mobile-image {
+    height: 278px;
     margin-left: 0;
     text-align: center;
   }
