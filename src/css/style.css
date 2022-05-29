@@ -451,7 +451,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 551px;
+  width: 550px;
   margin-right: 50px;
   margin-bottom: 25px;
   color: #e0e0e0;
@@ -634,7 +634,7 @@ h4 {
   .pricing-item {
     flex-basis: auto;
     width: calc(100% - 40px);
-    margin-top: 46px;
+    margin-top: 40px;
     margin-right: 0;
   }
 
