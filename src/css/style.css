@@ -418,15 +418,21 @@ h4 {
   display: flex;
 }
 
-.column {
+.contacts li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+/*.column {
   display: flex;
   flex-direction: column;
   flex-basis: 22.5%;
   margin-right: 40px;
-  color: #e0e0e0;
-  line-height: 24px;
-}
 
+  color: $grey;
+  line-height: 24px;
+}*/
 .social-network {
   flex-basis: 22.5%;
 }
@@ -574,7 +580,6 @@ h4 {
   .nav-list {
     display: flex;
     flex-direction: column;
-    width: 84px;
   }
   .nav-list li {
     margin-left: 0;

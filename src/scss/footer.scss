@@ -61,7 +61,14 @@
   display: flex;
 }
 
-.column {
+.contacts {
+  li {
+    width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  }
+}
+/*.column {
   display: flex;
   flex-direction: column;
   flex-basis: 22.5%;
@@ -69,7 +76,7 @@
 
   color: $grey;
   line-height: 24px;
-}
+}*/
 
 .social-network {
   flex-basis: 22.5%;
