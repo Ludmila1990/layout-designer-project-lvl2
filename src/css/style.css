@@ -18,6 +18,7 @@
   border: 1px solid #fff;
 }
 .btn-news {
+  display: inline-block;
   padding: 16px 32px;
   color: #cacaca;
   font-size: 12.8px;
@@ -331,7 +332,7 @@ h4 {
 .data {
   display: flex;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 48px;
   font-size: 12px;
   line-height: 19.2px;
 }
@@ -650,7 +651,6 @@ h4 {
 
   .news-item {
     flex-direction: column;
-    height: 480px;
   }
 
   .news-body {
@@ -660,10 +660,6 @@ h4 {
     margin-top: 50px;
     margin-bottom: 16px;
     line-height: 24px;
-  }
-
-  .img-news {
-    height: 187px;
   }
 
   .mg-b-15 {
