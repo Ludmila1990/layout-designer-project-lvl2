@@ -425,15 +425,15 @@ h4 {
   width: fit-content;
 }
 
-/*.column {
+.column {
   display: flex;
   flex-direction: column;
   flex-basis: 22.5%;
   margin-right: 40px;
-
-  color: $grey;
+  color: #e0e0e0;
   line-height: 24px;
-}*/
+}
+
 .social-network {
   flex-basis: 22.5%;
 }
@@ -713,6 +713,9 @@ h4 {
     margin-bottom: 30px;
     margin-right: 0;
   }
+  .column a {
+    width: fit-content;
+  }
 
   .footer-container-two {
     padding-right: 20px;
@@ -729,6 +732,9 @@ h4 {
 
   .footer-nav {
     flex-direction: column;
+  }
+  .footer-nav a {
+    width: 358px;
   }
 
   .banner-artist {

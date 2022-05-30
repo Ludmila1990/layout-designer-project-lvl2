@@ -170,6 +170,10 @@
   .column {
     margin-bottom: 30px;
     margin-right: 0;
+
+    & a {
+      width: fit-content;
+    }
   }
 
   .footer-container-two {
@@ -189,6 +193,10 @@
 
   .footer-nav {
     flex-direction: column;
+
+    & a {
+      width: 358px;
+    }
   }
 
   .banner-artist {
