@@ -57,16 +57,21 @@ h4 {
   line-height: 27px;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px 20px 0 20px;
+.wrapper {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .container-main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 200px 20px;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 0 20px;
 }
 
 .font-white {
