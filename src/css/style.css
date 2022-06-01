@@ -124,7 +124,7 @@ h4 {
 .container-main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 200px 20px;
 }
 
 .font-white {
@@ -184,8 +184,7 @@ h4 {
 }
 
 .banner {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 0;
 }
 
 .form-banner {
@@ -216,8 +215,8 @@ h4 {
 }
 
 .banner-artist {
-  padding-top: 250px;
-  padding-bottom: 223px;
+  padding-top: 50px;
+  padding-bottom: 23px;
 }
 
 .mg-t-31 {
@@ -611,12 +610,12 @@ h4 {
     line-height: 24px;
   }
 
-  .banner {
-    padding-top: 250px;
-  }
-
   .mg-t-31 {
     margin-top: 16px;
+  }
+
+  .banner {
+    padding-top: 50px;
   }
 
   .form-banner {
@@ -656,6 +655,7 @@ h4 {
   .news-body h3 {
     margin-top: 50px;
     margin-bottom: 16px;
+    font-size: 16px;
     line-height: 24px;
   }
 
@@ -735,8 +735,8 @@ h4 {
   }
 
   .banner-artist {
-    padding-top: 225px;
-    padding-bottom: 224px;
+    padding-top: 25px;
+    padding-bottom: 24px;
   }
 
   .buttons-artist {
