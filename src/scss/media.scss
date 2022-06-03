@@ -14,8 +14,8 @@
   }
 
   .logo-name {
-    margin-right: 0;
     height: 17px;
+    margin-right: 0;
   }
 
   .nav-list {
@@ -23,8 +23,8 @@
 
     li {
       display: block;
-      margin-left: 0;
       margin-bottom: 3px;
+      margin-left: 0;
 
       &:nth-child(4) {
         margin-bottom: 0;
@@ -78,9 +78,9 @@
   }
 
   .pricing-cards {
-    width: 100vw;
-
     flex-wrap: wrap;
+
+    width: 100vw;
 
     margin-top: 0;
   }
@@ -150,40 +150,19 @@
 
   .footer-container {
     flex-direction: column;
-    padding-right: 20px;
-    padding-left: 20px;
 
     & ul {
-      margin-bottom: 30px;
       margin-right: 0;
-
-      &:nth-child(4) {
-        margin-bottom: 0;
-      }
+      margin-bottom: 30px;
     }
   }
 
   .column {
-    margin-bottom: 30px;
     margin-right: 0;
+    margin-bottom: 30px;
 
     & a {
       width: fit-content;
-    }
-  }
-
-  .footer-container-two {
-    padding-right: 20px;
-    padding-left: 20px;
-
-    & a {
-      width: 332px;
-      margin-right: 0;
-      margin-bottom: 16px;
-
-      &:nth-child(5) {
-        margin-bottom: 0;
-      }
     }
   }
 
@@ -192,6 +171,18 @@
 
     & a {
       width: 358px;
+    }
+  }
+
+  .footer-container-two {
+    & a {
+      width: 332px;
+      margin-right: 0;
+      margin-bottom: 16px;
+
+      &:nth-child(5) {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -232,13 +223,7 @@
 }
 
 @media (min-width: 551px) and (max-width: 768px) {
-  .container {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
   .nav-section {
-    top: 27px;
     left: 20px;
 
     flex-direction: column;
@@ -253,23 +238,32 @@
   }
 
   .logo-name {
+    height: 17px;
     margin-right: 0;
-    height: 13px;
+  }
+
+  .footer-container-two li {
+    display: list-item;
+    margin-right: 0;
+    margin-bottom: 16px;
   }
 
   .nav-list {
-    display: contents;
-    width: 83px;
-    height: 13px;
+    width: 84px;
 
     li {
-      margin-left: 0;
+      display: block;
       margin-bottom: 3px;
+      margin-left: 0;
 
       &:nth-child(4) {
         margin-bottom: 0;
       }
     }
+  }
+
+  .footer-container-two li:nth-child(5) {
+    margin-bottom: 0;
   }
 
   .form-search {
@@ -298,7 +292,7 @@
   }
 
   .banner {
-    padding-top: 150px;
+    padding-top: 48px;
   }
 
   .mg-t-31 {
@@ -341,14 +335,16 @@
     flex-direction: column;
   }
 
-  .img-news {
-    width: 100%;
-  }
-
   .news-body {
+    width: 100%;
+
     & h3 {
       margin-top: 50px;
       margin-bottom: 16px;
+
+      font-size: 16px;
+
+      line-height: 24px;
     }
   }
 
@@ -360,40 +356,24 @@
     margin-top: 64px;
   }
 
-  .content {
-    margin-bottom: 20px;
-  }
-
   .mobile-image {
     padding-left: 0;
   }
 
   .footer-container {
     flex-direction: column;
-    padding-right: 20px;
-    padding-left: 20px;
 
     & ul {
       margin-bottom: 30px;
-
-      &:nth-child(4) {
-        margin-bottom: 0;
-      }
     }
   }
 
-  .footer-container-two {
-    padding-right: 20px;
-    padding-left: 20px;
+  .column {
+    margin-right: 0;
+    margin-bottom: 30px;
 
-    & li {
-      display: list-item;
-      margin-right: 0;
-      margin-bottom: 16px;
-
-      &:nth-child(5) {
-        margin-bottom: 0;
-      }
+    & a {
+      width: fit-content;
     }
   }
 
@@ -421,11 +401,6 @@
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-  .container {
-    padding: 100px 40px;
-    padding-bottom: 0;
-  }
-
   .nav-section {
     left: 40px;
   }
@@ -462,21 +437,19 @@
 
   .footer-container {
     flex-direction: column;
-    padding-right: 40px;
-    padding-left: 40px;
 
     & ul {
       margin-bottom: 30px;
-
-      &:nth-child(4) {
-        margin-bottom: 0;
-      }
     }
   }
 
-  .footer-container-two {
-    padding-right: 40px;
-    padding-left: 40px;
+  .column {
+    margin-right: 0;
+    margin-bottom: 30px;
+
+    & a {
+      width: fit-content;
+    }
   }
 
   .track-item {
@@ -489,22 +462,5 @@
     &:nth-child(n + 5) {
       margin-bottom: 25px;
     }
-  }
-}
-
-@media (min-width: 1201px) and (max-width: 1239px) {
-  .container {
-    padding: 100px 20px;
-    padding-bottom: 0;
-  }
-
-  .footer-container {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .footer-container-two {
-    padding-right: 20px;
-    padding-left: 20px;
   }
 }

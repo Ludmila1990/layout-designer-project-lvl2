@@ -1,54 +1,81 @@
 .btn {
   box-sizing: border-box;
+
   color: #fff;
   text-transform: uppercase;
+
   border-radius: 5px;
 }
+
 .btn-green {
   width: 570px;
   height: 57px;
   padding: 20px 30px;
+
   background: #34c176;
+
   border: none;
 }
+
 .btn-transp {
   width: 100%;
   height: 66px;
   padding: 20px 30px;
+
   background: none;
+
   border: 1px solid #fff;
 }
+
 .btn-news {
   display: inline-block;
   padding: 16px 30px;
+
   color: #cacaca;
+
   font-size: 12.8px;
   line-height: 19.2px;
+
   border: 1px solid;
 }
+
 .btn-red {
+  display: inline-block;
   width: 131px;
   height: 53px;
   padding: 16px 40px;
+
   font-size: 12.8px;
   line-height: 19.2px;
   text-transform: none;
+
   background: #95390c;
+
   border: none;
   border-radius: 32px;
 }
+
+a {
+  color: #cacaca;
+  text-decoration: none;
+}
+
 .btn-red a {
   color: #fff;
 }
+
 .btn-artist {
   display: flex;
   align-items: center;
   width: 200px;
   height: 62px;
   padding: 20px 30px;
+
   font-size: 12.8px;
+
   border: none;
 }
+
 .btn-artist img {
   width: 20px;
   height: 20px;
@@ -69,13 +96,10 @@ body {
   font-size: 16px;
   font-family: Roboto, sans-serif;
   line-height: 1.5;
+
   background-color: #08020d;
 }
 
-a {
-  color: #cacaca;
-  text-decoration: none;
-}
 a:hover {
   color: #fff;
 }
@@ -129,7 +153,7 @@ h4 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 20px 0 20px;
+  padding: 100px 20px 0;
 }
 
 .font-white {
@@ -144,9 +168,11 @@ h4 {
   position: absolute;
   top: 25px;
   left: 119px;
+
   display: flex;
   align-items: center;
   width: 83.3333%;
+
   font-size: 11px;
   line-height: 16.5px;
   text-transform: uppercase;
@@ -156,15 +182,16 @@ h4 {
   display: flex;
   align-items: center;
 }
+
 .logoname img {
-  height: 24px;
   width: 24px;
+  height: 24px;
 }
 
 .logo-name {
+  height: 17px;
   margin-right: 66px;
   margin-left: 16px;
-  height: 17px;
 }
 
 .nav-list li {
@@ -176,13 +203,16 @@ h4 {
   position: absolute;
   right: 0;
 }
+
 .form-search input {
   box-sizing: border-box;
   width: 248px;
   height: 25px;
   padding-left: 10px;
+
   color: #fff;
   text-transform: uppercase;
+
   background: #3c3b3d;
   border: none;
   border-radius: 50px;
@@ -200,21 +230,26 @@ h4 {
   margin: 17px auto;
   margin-bottom: 0;
 }
-.form-banner input[type=text] {
+
+.form-banner input[type="text"] {
   box-sizing: border-box;
   width: 273px;
   height: 50px;
   margin-bottom: 1.5rem;
   padding-left: 20px;
+
   color: #fff;
+
   background: none;
   border: 2px solid;
   border-radius: 3px;
 }
-.form-banner input[type=text]:nth-child(1) {
+
+.form-banner input[type="text"]:nth-child(1) {
   margin-right: 24px;
 }
-.form-banner input[type=text]::placeholder {
+
+.form-banner input[type="text"]::placeholder {
   color: #fff;
   font-size: 14px;
 }
@@ -279,6 +314,7 @@ h4 {
   justify-content: space-between;
   margin-top: 45px;
   margin-bottom: 43px;
+
   text-align: center;
 }
 
@@ -288,12 +324,16 @@ h4 {
   margin-right: 50px;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
+
   color: #fff;
+
   border-radius: 1rem;
 }
+
 .pricing-item:nth-child(3) {
   margin-right: 0;
 }
+
 .pricing-item h3 {
   margin-top: 24px;
   margin-bottom: 200px;
@@ -303,11 +343,14 @@ h4 {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+
   font-size: 32px;
   text-transform: uppercase;
 }
+
 .pricing-value span {
   margin-right: 16px;
+
   font-size: 64px;
   line-height: 1em;
 }
@@ -315,6 +358,7 @@ h4 {
 .pricing-footer {
   margin-top: 64px;
   margin-bottom: 64px;
+
   font-size: 12.8px;
   line-height: 19.2px;
 }
@@ -326,12 +370,15 @@ h4 {
 .news-body {
   width: 50%;
 }
+
 .news-body h3 {
   margin-bottom: 30px;
+
   font-size: 30px;
   line-height: 45px;
   text-transform: capitalize;
 }
+
 .news-body img {
   width: 19px;
   height: 19px;
@@ -341,6 +388,7 @@ h4 {
   display: flex;
   align-items: center;
   margin-bottom: 48px;
+
   font-size: 12px;
   line-height: 19.2px;
 }
@@ -370,11 +418,20 @@ h4 {
 .footer-container-two {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px 49px 20px;
+  padding: 40px 20px 49px;
 }
 
 .footer-container-two a {
   margin-right: 16px;
+
+  color: #e0e0e0;
+}
+
+.social-network a {
+  margin-right: 24px;
+}
+
+.footer-container a {
   color: #e0e0e0;
 }
 
@@ -386,10 +443,6 @@ h4 {
   color: #fff;
 }
 
-.footer-container a {
-  color: #e0e0e0;
-}
-
 .footer-container a:hover {
   color: #fff;
 }
@@ -398,7 +451,7 @@ h4 {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 62px 20px 72px 20px;
+  padding: 62px 20px 72px;
 }
 
 .footer-container h2 {
@@ -427,16 +480,15 @@ h4 {
 }
 
 .contacts li {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
 }
 
 .column {
   display: flex;
-  flex-direction: column;
   flex-basis: 22.5%;
+  flex-direction: column;
   margin-right: 40px;
+
   color: #e0e0e0;
   line-height: 24px;
 }
@@ -444,9 +496,7 @@ h4 {
 .social-network {
   flex-basis: 22.5%;
 }
-.social-network a {
-  margin-right: 24px;
-}
+
 .social-network a:nth-child(5) {
   margin-right: 0;
 }
@@ -456,6 +506,7 @@ h4 {
   flex-wrap: wrap;
   margin-top: 48px;
 }
+
 .popular-track img {
   width: 55px;
   height: 55px;
@@ -468,11 +519,13 @@ h4 {
   width: 550px;
   margin-right: 50px;
   margin-bottom: 25px;
+
   color: #e0e0e0;
   font-weight: normal;
   font-size: 12.8px;
   line-height: 19.2px;
 }
+
 .track-item:nth-child(n+5) {
   margin-bottom: 0;
 }
@@ -485,6 +538,7 @@ h4 {
 .track-info {
   margin-left: 15px;
 }
+
 .track-info h3 {
   font-weight: bold;
   font-size: 12.8px;
@@ -494,20 +548,22 @@ h4 {
 .catalog {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 48px;
   justify-content: start;
+  margin-top: 48px;
 }
 
 .catalog-item {
   margin-right: 50px;
   margin-bottom: 25px;
 }
+
 .catalog-item:nth-child(n+5) {
   margin-bottom: 0;
 }
 
 .item-name {
   margin-top: 11px;
+
   color: #fff;
   font-weight: bold;
   font-size: 18px;
@@ -565,8 +621,10 @@ h4 {
 @media (min-width: 320px) and (max-width: 550px) {
   .nav-section {
     left: 20px;
+
     flex-direction: column;
     align-items: flex-start;
+
     line-height: 12.89px;
   }
 
@@ -576,26 +634,30 @@ h4 {
   }
 
   .logo-name {
-    margin-right: 0;
     height: 17px;
+    margin-right: 0;
   }
 
   .nav-list {
     width: 84px;
   }
+
   .nav-list li {
     display: block;
-    margin-left: 0;
     margin-bottom: 3px;
+    margin-left: 0;
   }
+
   .nav-list li:nth-child(4) {
     margin-bottom: 0;
   }
 
   .form-search {
     position: unset;
+
     margin-top: 18px;
   }
+
   .form-search input {
     width: calc(100vw - 40px);
   }
@@ -626,16 +688,18 @@ h4 {
   .form-banner {
     width: 100%;
   }
-  .form-banner input[type=text] {
+
+  .form-banner input[type="text"] {
     width: 100%;
   }
-  .form-banner input[type=text]:nth-child(1) {
+
+  .form-banner input[type="text"]:nth-child(1) {
     margin-right: 0;
   }
 
   .pricing-cards {
-    width: 100vw;
     flex-wrap: wrap;
+    width: 100vw;
     margin-top: 0;
   }
 
@@ -657,9 +721,11 @@ h4 {
   .news-body {
     width: 100%;
   }
+
   .news-body h3 {
     margin-top: 50px;
     margin-bottom: 16px;
+
     font-size: 16px;
     line-height: 24px;
   }
@@ -683,6 +749,7 @@ h4 {
   .mobile-image {
     height: 278px;
     margin-left: 0;
+
     text-align: center;
   }
 
@@ -700,43 +767,38 @@ h4 {
 
   .footer-container {
     flex-direction: column;
-    padding-right: 20px;
-    padding-left: 20px;
   }
+
   .footer-container ul {
-    margin-bottom: 30px;
     margin-right: 0;
-  }
-  .footer-container ul:nth-child(4) {
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
 
   .column {
-    margin-bottom: 30px;
     margin-right: 0;
+    margin-bottom: 30px;
   }
+
   .column a {
     width: fit-content;
   }
 
-  .footer-container-two {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
   .footer-container-two a {
     width: 332px;
     margin-right: 0;
     margin-bottom: 16px;
   }
+
+  .footer-nav a {
+    width: 358px;
+  }
+
   .footer-container-two a:nth-child(5) {
     margin-bottom: 0;
   }
 
   .footer-nav {
     flex-direction: column;
-  }
-  .footer-nav a {
-    width: 358px;
   }
 
   .banner-artist {
@@ -756,6 +818,7 @@ h4 {
     width: 100%;
     margin-right: 0;
   }
+
   .track-item:nth-child(5) {
     margin-bottom: 25px;
   }
@@ -763,25 +826,24 @@ h4 {
   .catalog-item {
     width: 137px;
   }
+
   .catalog-item img {
     width: 137px;
     height: 137px;
   }
+
   .catalog-item:nth-child(even) {
     margin-right: 0;
   }
 }
-@media (min-width: 551px) and (max-width: 768px) {
-  .container {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
 
+@media (min-width: 551px) and (max-width: 768px) {
   .nav-section {
-    top: 27px;
     left: 20px;
+
     flex-direction: column;
     align-items: flex-start;
+
     line-height: 12.89px;
   }
 
@@ -791,27 +853,36 @@ h4 {
   }
 
   .logo-name {
+    height: 17px;
     margin-right: 0;
-    height: 13px;
   }
 
   .nav-list {
-    display: contents;
-    width: 83px;
-    height: 13px;
+    width: 84px;
   }
+
   .nav-list li {
-    margin-left: 0;
+    display: block;
     margin-bottom: 3px;
+    margin-left: 0;
   }
+
+  .footer-container-two li {
+    display: list-item;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
   .nav-list li:nth-child(4) {
     margin-bottom: 0;
   }
 
   .form-search {
     position: unset;
+
     margin-top: 18px;
   }
+
   .form-search input {
     width: calc(100vw - 40px);
   }
@@ -832,7 +903,7 @@ h4 {
   }
 
   .banner {
-    padding-top: 150px;
+    padding-top: 48px;
   }
 
   .mg-t-31 {
@@ -842,10 +913,12 @@ h4 {
   .form-banner {
     width: 100%;
   }
-  .form-banner input[type=text] {
+
+  .form-banner input[type="text"] {
     width: 100%;
   }
-  .form-banner input[type=text]:nth-child(1) {
+
+  .form-banner input[type="text"]:nth-child(1) {
     margin-right: 0;
   }
 
@@ -860,6 +933,7 @@ h4 {
     margin-top: 46px;
     margin-right: 0;
   }
+
   .pricing-item:nth-child(1) {
     margin-right: 24px;
   }
@@ -872,13 +946,16 @@ h4 {
     flex-direction: column;
   }
 
-  .img-news {
+  .news-body {
     width: 100%;
   }
 
   .news-body h3 {
     margin-top: 50px;
     margin-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .mg-l-50 {
@@ -889,35 +966,27 @@ h4 {
     margin-top: 64px;
   }
 
-  .content {
-    margin-bottom: 20px;
-  }
-
   .mobile-image {
     padding-left: 0;
   }
 
   .footer-container {
     flex-direction: column;
-    padding-right: 20px;
-    padding-left: 20px;
   }
+
   .footer-container ul {
     margin-bottom: 30px;
   }
-  .footer-container ul:nth-child(4) {
-    margin-bottom: 0;
+
+  .column {
+    margin-right: 0;
+    margin-bottom: 30px;
   }
 
-  .footer-container-two {
-    padding-right: 20px;
-    padding-left: 20px;
+  .column a {
+    width: fit-content;
   }
-  .footer-container-two li {
-    display: list-item;
-    margin-right: 0;
-    margin-bottom: 16px;
-  }
+
   .footer-container-two li:nth-child(5) {
     margin-bottom: 0;
   }
@@ -926,6 +995,7 @@ h4 {
     width: 100%;
     margin-right: 0;
   }
+
   .track-item:nth-child(5) {
     margin-bottom: 25px;
   }
@@ -933,20 +1003,18 @@ h4 {
   .catalog-item {
     width: 145px;
   }
+
   .catalog-item img {
     width: 145px;
     height: 145px;
   }
+
   .catalog-item:nth-child(n+5) {
     margin-bottom: 25px;
   }
 }
-@media (min-width: 769px) and (max-width: 1200px) {
-  .container {
-    padding: 100px 40px;
-    padding-bottom: 0;
-  }
 
+@media (min-width: 769px) and (max-width: 1200px) {
   .nav-section {
     left: 40px;
   }
@@ -966,6 +1034,7 @@ h4 {
   .pricing-item {
     margin-right: 30px;
   }
+
   .pricing-item:nth-child(3) {
     margin-right: 0;
   }
@@ -980,19 +1049,19 @@ h4 {
 
   .footer-container {
     flex-direction: column;
-    padding-right: 40px;
-    padding-left: 40px;
   }
+
   .footer-container ul {
     margin-bottom: 30px;
   }
-  .footer-container ul:nth-child(4) {
-    margin-bottom: 0;
+
+  .column {
+    margin-right: 0;
+    margin-bottom: 30px;
   }
 
-  .footer-container-two {
-    padding-right: 40px;
-    padding-left: 40px;
+  .column a {
+    width: fit-content;
   }
 
   .track-item:nth-child(5) {
@@ -1001,22 +1070,6 @@ h4 {
 
   .catalog-item:nth-child(n+5) {
     margin-bottom: 25px;
-  }
-}
-@media (min-width: 1201px) and (max-width: 1239px) {
-  .container {
-    padding: 100px 20px;
-    padding-bottom: 0;
-  }
-
-  .footer-container {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .footer-container-two {
-    padding-right: 20px;
-    padding-left: 20px;
   }
 }
 
